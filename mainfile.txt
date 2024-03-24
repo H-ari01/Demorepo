@@ -1,1 +1,41 @@
 main file 
+my-ubuntu@myubuntu-Lenovo-B460e:~$ cd Documents/
+my-ubuntu@myubuntu-Lenovo-B460e:~/Documents$ mkdir Demorepo
+my-ubuntu@myubuntu-Lenovo-B460e:~/Documents$ cd Demorepo/
+my-ubuntu@myubuntu-Lenovo-B460e:~/Documents/Demorepo$ vi file1.txt
+my-ubuntu@myubuntu-Lenovo-B460e:~/Documents/Demorepo$ vi file2.txt
+my-ubuntu@myubuntu-Lenovo-B460e:~/Documents/Demorepo$ cat file1.txt
+Welcome to Github repository
+
+my-ubuntu@myubuntu-Lenovo-B460e:~/Documents/Demorepo$ cat file2.txt
+Thankyou
+
+my-ubuntu@myubuntu-Lenovo-B460e:~/Documents/Demorepo$ ls
+file1.txt  file2.txt
+my-ubuntu@myubuntu-Lenovo-B460e:~/Documents/Demorepo$ git init
+Reinitialized existing Git repository in /home/my-ubuntu/Documents/Demorepo/.git/
+my-ubuntu@myubuntu-Lenovo-B460e:~/Documents/Demorepo$ git add .
+my-ubuntu@myubuntu-Lenovo-B460e:~/Documents/Demorepo$ git commit -m "Add my local files"
+[master (root-commit) e843dc6] Add my local files
+ 2 files changed, 4 insertions(+)
+ create mode 100644 file1.txt
+ create mode 100644 file2.txt
+my-ubuntu@myubuntu-Lenovo-B460e:~/Documents/Demorepo$ git remote add origin https://github.com/H-ari01/Demorepo.git
+my-ubuntu@myubuntu-Lenovo-B460e:~/Documents/Demorepo$ git push -u origin master
+Username for 'https://github.com': H-ari01
+Password for 'https://H-ari01@github.com': 
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 294 bytes | 294.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/H-ari01/Demorepo/pull/new/master
+remote: 
+To https://github.com/H-ari01/Demorepo.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+my-ubuntu@myubuntu-Lenovo-B460e:~/Documents/Demorepo$ 
+
